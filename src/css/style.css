@@ -11,6 +11,7 @@ body {
 	max-width: 1440px;
 	margin: 0 auto;
 }
+
 .img-logo img {
 	width: 15.8rem;
 	padding: 15px;
@@ -94,11 +95,12 @@ body {
 	}
 	.img-logo {
 		max-width: 100%;
+		margin-top: 30px;
 	}
 	.img-logo img {
 		width: 6rem;
 		padding: 10px;
-		margin: 0 auto;
+		margin: 10px auto;
 	}
 	.container {
 		flex-direction: column;
@@ -124,7 +126,7 @@ body {
 		justify-content: center;
 	}
 	.footer i {
-		margin: 0;
+		margin-bottom: 30px;
 		align-self: center;
 	}
 }
